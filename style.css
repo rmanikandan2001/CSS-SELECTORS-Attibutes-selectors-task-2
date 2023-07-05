@@ -1,0 +1,19 @@
+[title~=beautiful] {
+	border:5px solid yellow;
+}
+
+[class|="one"]{
+	background-color:red;
+}
+
+[class^="one"]{
+	background-color:red;
+}
+
+[class $ ="girl"]{
+	background-color:yellow;
+} 
+
+[class * ="top"]{
+	background-color:red;
+}
